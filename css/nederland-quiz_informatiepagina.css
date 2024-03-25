@@ -1,0 +1,319 @@
+@font-face {
+    font-family: phosphateSolid;
+    src: url("../fonts/PhosphateFont/PhosphateRRSolid/PhosphateRR\ Solid.ttf");
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+.header{
+    font-family: phosphateSolid;
+}
+ 
+.headerDiv{
+    display: inline-flex;
+    width: 100.8%;
+    height: 160px;
+    background-color: #f6910d;
+    margin-left: -8px;
+    padding: 0px;
+}
+ 
+.headerA{
+    color: black;
+    text-decoration: none;
+}
+ 
+#headerH{
+    font-size: 50px;
+}
+ 
+.homeH{
+    font-family: phosphateSolid;
+}
+ 
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+    transition: all 0.3s ease;
+}
+ 
+.button:hover {
+    transform: scale(1.05);
+}
+ 
+#homebutton{
+    background-color: rgb(244, 22, 10);
+    margin-left: 400px;
+}
+
+#infobutton{
+    background-color: #fff;
+}
+
+#quizbutton{
+    background-color: rgb(10, 45, 244);
+}
+ 
+#footballLogo{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+ 
+.main{
+    display: inline-flex;
+}
+ 
+#mainH{
+    margin-left: 50px;
+    font-size: 70px;
+}
+ 
+#welkomH{
+    font-family: phosphateSolid;
+}
+ 
+.mainP{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+}
+ 
+.mainText{
+    font-size: 30px;
+    margin-left: 300px;
+}
+ 
+.quizVlak{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-align: center;
+}
+ 
+.speelH{
+    font-family: phosphateSolid;
+    font-size: 40px;
+}
+ 
+.quizFlex{
+    width: 340px;
+    height: 226.233px;
+    margin-top: 30px;
+}
+ 
+.buttonSpeel_frankrijk{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -15px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+ 
+.buttonSpeel_nederland{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -15px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+ 
+.buttonSpeel_marokko{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -15px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+ 
+.buttonSpeel_frankrijk:hover{
+    background-color: #f6910d;
+    transform: scale(1.05);
+}
+ 
+.buttonSpeel_frankrijk a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+ 
+.buttonSpeel_nederland:hover{
+    background-color: #f6910d;
+    transform: scale(1.05);
+}
+ 
+.buttonSpeel_marokko:hover{
+    background-color: red;
+}
+ 
+.buttonSpeel_marokko a:hover{
+    color: #fff;
+}
+ 
+#quizzen{
+    display: inline-flex;
+    margin-left: 200px;
+}
+ 
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  .dropdown-content a {
+    font-size: 30px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+ 
+/* Voeg animatie toe aan de knoppen */
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: slideIn 0.5s ease forwards;
+}
+ 
+/* Definieer de animaties */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+ 
+@keyframes slideIn {
+    from { transform: translateY(-10px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+footer{
+    width: 100.8%;
+    height: 130px;
+    background-color: #000;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    padding-top: 1px;
+    text-align: center;
+}
+ 
+.footerP{
+    color: #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+ 
+.footerA{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+}
+ 
+.footerA:hover{
+    color: rgb(22, 143, 250);
+}
+ 
+.footerA_div{
+    display: inline-flex;
+    margin-left: 50px;
+}
+ 
+#kennisP{
+    font-family: phosphateSolid;
+    font-size: 50px;
+    margin-left: 50px;
+}
+ 
+#tussenPagina{
+    display: inline-flex;
+}
+ 
+.quizVlak_tussenPagina{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-align: center;
+}
+ 
+.quizVlak_tussenPagina_vlak{
+    display: inline-flex;
+    flex-direction: column;
+}
+ 
+.tussen_pagina_nederland_img{
+    width: 720px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+ 
+#samenvP{
+    max-width: 700px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+ 
+#infoH{
+    margin-left: 50px;
+}
+
+.informatie_pagina_nederland_img{
+    width: 420px;
+    height: 550px;
+}
