@@ -1,6 +1,6 @@
 @font-face {
     font-family: phosphateSolid;
-    src: url("../fonts/PhosphateFont/PhosphateRRSolid/PhosphateRR\ Solid.ttf");
+    src: url("../fonts/PhosphateFont/PhosphateRRSolid/PhosphateRR Solid.ttf");
 }
 
 a{
@@ -21,17 +21,42 @@ a{
     padding: 0px;
 }
 
+.headerDivHome{
+    display: inline-flex;
+    width: 100.8%;
+    height: 160px;
+    background-image: linear-gradient(to left, #fbff65,#1bec1b ,#4848ff );
+    margin-left: -8px;
+    padding: 0px;
+}
+
+
 .headerA{
     color: black;
     text-decoration: none;
 }
 
-#headerH{
+#homeH1{
     font-size: 50px;
 }
 
-.homeH{
+#infoH1{
+    font-size: 50px;
+}
+
+#quizH1{
+    font-size: 50px;
+}
+
+.homeH {
+    font-size: 50px;
     font-family: phosphateSolid;
+}
+
+.homeH_info_page{
+    font-size: 50px;
+    font-family: phosphateSolid;
+
 }
 
 .button{
@@ -62,6 +87,19 @@ a{
 
 #quizbutton{
     background-color: rgb(244, 22, 10);
+}
+
+#homebuttonHome{
+    background-color: #1ab01a;
+    margin-left: 400px;
+}
+
+#infobuttonHome{
+    background-color: #fbff65;
+}
+
+#quizbuttonHome{
+    background-color: blue;
 }
 
 #footballLogo{
@@ -105,6 +143,19 @@ a{
     text-align: center;
 }
 
+
+.quizVlak_info_page{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 740px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-align: center;
+}
+
 .speelH{
     font-family: phosphateSolid;
     font-size: 40px;
@@ -114,6 +165,50 @@ a{
     width: 340px;
     height: 226.233px;
     margin-top: 30px;
+}
+
+.quizFlex_info_page{
+    width: 680px;
+    height: 452.466px;
+    margin-top: 70px;
+}
+
+.speelH_info_page{
+    font-family: phosphateSolid;
+    font-size: 50px;
+}
+
+
+.buttonSpeel_frankrijk_info_page{
+    width: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: -30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.buttonSpeel_frankrijk_info_page:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.info_page_flex{
+    display: inline-flex;
+}
+
+.info_page_p{
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.info_page_div{
+    margin-top: 20px;
 }
 
 .buttonSpeel_frankrijk{
@@ -345,6 +440,27 @@ footer{
     padding: 30px;
 }
 
+.quizInfo{
+    border-style: solid;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    display: none;
+}
+
+#quizVragenFlex{
+    display: inline-flex;
+    margin-bottom: 35px;
+}
+
+#info{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #quizH{
     margin-left: 50px;
 }
@@ -446,4 +562,22 @@ footer{
 .open-question-input{
     width: 400px;
     height: 200px;
+    font-size: 25px;
+}
+
+.correct-answer {
+    border: 2px solid green;
+}
+
+.incorrect-answer {
+    border: 2px solid red;
+}
+
+#thumbsUp{
+    width: 250px;
+    height: 250px;
+}
+
+#thumbsDown{
+    width: 150px;
 }

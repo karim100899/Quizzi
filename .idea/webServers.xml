@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0ca1ce3c-5e68-41f9-967e-45c12b7869b2" name="GLR_FTP" url="https://100899.stu.sd-lab.nl/beroeps/quizzi/Quizzi/GitHub/Quizzi">
+        <fileTransfer rootFolder="/httpdocs/beroeps/quizzi/Quizzi/GitHub/Quizzi" host="web03.sd-lab.nl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
