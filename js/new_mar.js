@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", function () {
         playAgainButton.textContent = "Speel Opnieuw";
         playAgainButton.classList.add("play-again-button"); // Voeg een klasse toe aan de knop voor styling
         playAgainButton.addEventListener("click", function () {
-            window.location.href = "frankrijk_quiz_voorpagina.html"; // Navigeer naar de volgende pagina
+            window.location.href = "mar_voor.html"; // Navigeer naar de volgende pagina
         });
         questionElement.appendChild(playAgainButton);
 
